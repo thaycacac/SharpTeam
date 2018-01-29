@@ -1,0 +1,57 @@
+/*Hòa*/
+.logo-team{
+	width: 80px;
+	height: 80px;
+	margin: 5px 0px 5px 0px;
+}
+.name-team{
+	width: 250px;
+	height: 35px;
+}
+.slogan-team{
+	width: 180px;
+	height: 10px;
+	margin: 5px 0px 12px 0px;
+}
+.nav-team{
+	font-size: 25px;
+	text-align: center;
+	padding-top: 7px;
+	border-top: solid #d2d1cf;
+	border-bottom: solid #d2d1cf; 
+	color:  #2b2c27;
+}
+.bg-nav-team{
+	background-color: #ececea !important;
+}
+.nav-link-team{
+	color: #2b2c27;
+}
+.nav-link-team:hover, .nav-link-team:focus {
+  text-decoration: none;
+  color: red;
+}
+.navbar-team {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+
+/*Nhật*/
+
+
+/*Đức*/
+
+
+/*Hiệp*/
