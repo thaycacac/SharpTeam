@@ -80,3 +80,79 @@ span.views-team {
 /*Duc*/
 
 /*End CSS Duc*/
+
+/* Hoa */
+
+#logo-team {
+    width: 20%;
+    margin: 5px 0px 0px 0px;
+}
+
+.name-team {
+    font: 300 270% 'Myriad', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: #e2e1df;
+    margin: 5px 0px 0px 0px;
+}
+
+.next-logo-team {
+    font: 300 90% 'Myriad', Helvetica, Arial, sans-serif;
+    margin: auto;
+}
+
+.slogan-team {
+    color: #aaaaaa;
+}
+
+.bg-center-nav-team {
+    background-color: #e2e1df;
+    text-align: center;
+}
+
+.nav-team {
+    font: 300 16px 'Myriad', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    vertical-align: text-top;
+}
+
+.boder-team {
+    border-top: solid #dadad9;
+    margin: 35px 0px 35px 0px;
+}
+
+.bg-nav-select-team {
+    background-color: #d6d6d6;
+}
+
+#active-team {
+    color: #6d6c6c;
+}
+
+.bg-nav-team {
+    background-color: #e2e1df;
+    height: 165px;
+}
+
+.navbar-team {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.col-sm-2.nav-team {
+    background-color: #e2e1df;
+}
+
+/* Hoa */
