@@ -1,2 +1,0 @@
-# SharpTeam
-Hello Mother Fucker
