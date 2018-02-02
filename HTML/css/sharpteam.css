@@ -14,7 +14,7 @@
     background: #898989;
     overflow: hidden;
     height: 50px;
-    padding: 12px 20px 12px 40px;
+    padding-top: 14px;
 }
 
 .sidebar-box-content-team {
@@ -73,6 +73,10 @@ span.views-team {
 
 .news-table-team .post-info-team a:hover {
     color: red;
+}
+
+.sidebar-box-heading-team {
+    text-align: center;
 }
 
 /* end css Hiep */
