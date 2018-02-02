@@ -2,16 +2,16 @@
 
 /* css for sidebar*/
 
-
 .sidebar-box-team {
     margin-bottom: 30px;
-    color: #7a8188;
+    color: #898989;
+    font: 300 16px 'Roboto', Helvetica, Arial, sans-serif;
 }
 
 .sidebar-box-heading-team {
     color: #fff;
     text-transform: uppercase;
-    background: #34495e;
+    background: #898989;
     overflow: hidden;
     height: 50px;
     padding: 12px 20px 12px 40px;
@@ -62,13 +62,21 @@
 }
 
 span.date-team {
-    font-size: 12px;
+    font-size: 11px;
     color: #7a8188;
+}
+
+span. {
+    font-size: 11px;
+    color: #7a8188;
+}
+
+.news-table-team .post-info-team a:hover {
+    color: red;
 }
 
 /* end css Hiep */
 
 /*Duc*/
-
 
 /*End CSS Duc*/
