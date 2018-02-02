@@ -371,3 +371,32 @@ span.views-team {
 }
 
 /* end css Nhat */
+
+/*Cường*/
+div.contentSize-team {
+    background-color:white;
+    height: 254px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: 5px solid rgb(134,134,134);
+    margin-bottom: 60px;
+}
+div.contentText-team {
+    padding-top: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+}
+div.contentImage-team {
+    width: 6%;
+    margin-left: 45%;
+    margin-top:-2.5%;  
+    height: auto;
+    float: left;
+    position: absolute;  
+ 
+}
+.pagination {
+    color: #ffffff;
+    background-color: #7a8188;
+}
+/* end css Cường */
