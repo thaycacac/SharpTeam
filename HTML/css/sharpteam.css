@@ -78,6 +78,19 @@ span.views-team {
 .sidebar-box-heading-team {
     text-align: center;
 }
+/* end css for sidebar */
+
+/* css for image page */
+div.contentSizeImage-team {
+    background-color:white;
+    height: 762px;
+    border-radius: 0px 0px 5px 5px;
+    border-top: 5px solid rgb(134,134,134);
+    margin-bottom: 60px;
+}
+
+
+/* end css for image page */
 
 /* end css Hiep */
 
