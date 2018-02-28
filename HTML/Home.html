@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-
 <html>
 
 <head>
-
     <!-- Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -54,24 +52,28 @@
 
 <body>
     <!-- Header -->
-    <nav class="navbar-team navbar-expand-sm bg-nav-team fixed-top">
+    <nav class="navbar-team navbar-expand-sm bg-nav-team fixed-top d-none d-sm-block no-padding no-margin">
         <div class="container">
             <div class="row">
                 <div class="col-sm-2 nav-team no-padding no-margin">
-                    <div class="bg-nav-select-team">
-                        <div class="boder-team"></div>
-                        <a href="#">HOME</a>
-                        <div class="boder-team"></div>
-                    </div>
+                    <a href="#">
+                        <div class="bg-nav-hover-team nav-active-team">
+                            <div class="boder-team"></div>
+                            <p>HOME</p>
+                            <div class="boder-team"></div>
+                        </div>
+                    </a>
                 </div>
-<div class="col-sm-2 nav-team no-padding no-margin">
-                    <div>
-                        <div class="boder-team"></div>
-                        <a href="#">DOCUMENT</a>
-                        <div class="boder-team"></div>
-                    </div>
+                <div class="col-sm-2 nav-team no-padding no-margin">
+                    <a href="#">
+                        <div class="bg-nav-hover-team">
+                            <div class="boder-team"></div>
+                            <p>DOCUMENT</p>
+                            <div class="boder-team"></div>
+                        </div>
+                    </a>
                 </div>
-                <div class="col-sm-4 bg-center-nav-team">
+                <div class="col-sm-4 bg-center-nav-team no-padding no-margin">
                     <div>
                         <table>
                             <tr>
@@ -81,7 +83,7 @@
                                 <td>
                                     <div>
                                         <img src="images\logo-team.png" alt="logo team" class="no-padding no-margin" id="logo-team">
-                                        <p class="next-logo-team">Life</p>
+                                        <p class="next-logo-team d-none d-xl-block">Change The World</p>
                                     </div>
                                 </td>
                                 <td>
@@ -95,48 +97,98 @@
                     <p class="slogan-team no-padding no-margin">HAND FORGE CODE</p>
                 </div>
                 <div class="col-sm-2 nav-team no-padding no-margin">
-                    <div>
-                        <div class="boder-team"></div>
-                        <a href="#">ABOUT US</a>
-                        <div class="boder-team"></div>
-                    </div>
+                    <a href="#">
+                        <div class="bg-nav-hover-team">
+                            <div class="boder-team"></div>
+                            <p>ABOUT US</p>
+                            <div class="boder-team"></div>
+                        </div>
+                    </a>
                 </div>
                 <div class="col-sm-2 nav-team no-padding no-margin">
-                    <div>
-                        <div class="boder-team"></div>
-                        <a href="#">MORE</a>
-                        <div class="boder-team"></div>
-                    </div>
+                    <a href="#">
+                        <div class="bg-nav-hover-team">
+                            <div class="boder-team"></div>
+                            <p>MORE</p>
+                            <div class="boder-team"></div>
+                        </div>
+                    </a>
                 </div>
             </div>
         </div>
     </nav>
     <!-- /Header -->
+    <!-- Hearder only sm -->
+    <nav class="navbar navbar-expand-md bg-nav-sm-team navbar-dark d-block d-sm-none">
+        <div class="col-sm-4 bg-center-nav-team">
+            <div>
+                <table>
+                    <tr>
+                        <td>
+                            <p class="next-logo-team">Love</p>
+                        </td>
+                        <td>
+                            <div>
+                                <img src="images\logo-team.png" alt="logo team" class="no-padding no-margin" id="logo-team">
+                            </div>
+                        </td>
+                        <td>
+                            <p class="next-logo-team">Life</p>
+                        </td>
+                    </tr>
+                </table>
+
+            </div>
+            <p class="name-team no-padding">SHARP TEAM</p>
+            <p class="slogan-team no-padding no-margin">HAND FORGE CODE</p>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon-team">...</span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item-sm-team text-center nav-active-sm-team">
+                    <a class="nav-link-sm-team" href="#">HOME</a>
+                </li>
+                <li class="nav-item-sm-team text-center">
+                    <a class="nav-link-sm-team" href="#">DOCUMENT</a>
+                </li>
+                <li class="nav-item-sm-team text-center">
+                    <a class="nav-link-sm-team" href="#">ABOUT US</a>
+                </li>
+                <li class="nav-item-sm-team text-center">
+                    <a class="nav-link-sm-team" href="#">MORE</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- /Header only sm  -->
+
     <!--Slide image-->
 
     <div id="demo" class="carousel slide" data-ride="carousel">
         <ul class="carousel-indicators">
-            <li data-target="#demo" data-slide-to="0" class="active"></li>
-            <li data-target="#demo" data-slide-to="1"></li>
-            <li data-target="#demo" data-slide-to="2"></li>
+            <li data-target="#" data-slide-to="0" class="active"></li>
+            <li data-target="#" data-slide-to="1"></li>
+            <li data-target="#" data-slide-to="2"></li>
         </ul>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/1.jpg" alt="Los Angeles" width="1900" height="600">
+                <img src="images/slide1.jpg" alt="Sharp Team 1" class="image-slide-team">
                 <div class="carousel-caption">
                     <h3>Our Team</h3>
                     <p>We will change the world</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/Sharp.jpg" alt="Chicago" width="1900" height="600">
+                <img src="images/slide2.jpg" alt="Sharp Team 2" class="image-slide-team">
                 <div class="carousel-caption">
                     <h3>Coding Project</h3>
                     <p>We got third price</p>
                 </div>
             </div>
             <div class="carousel-item">
-                <img src="images/4.jpg" alt="New York" width="1900" height="600">
+                <img src="images/slide3.jpg" alt="Sharp Team 3" class="image-slide-team">
                 <div class="carousel-caption">
                     <h3>JS</h3>
                     <p>All member of Sharp Team belong to JS Club</p>
@@ -162,7 +214,9 @@
                 </div>
                 <div class="contentSize-team">
                     <div class="contentText-team">
-                        <h1 class="title-team">Simple post with, link, paragraphs and comment</h1>
+                        <a href="#">
+                            <h1 class="title-team">Simple post with, link, paragraphs and comment</h1>
+                        </a>
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <img class="img-artical-team" src="images\artical-example.jpg" alt="artical example">
@@ -203,7 +257,9 @@
                 </div>
                 <div class="contentSize-team">
                     <div class="contentText-team">
-                        <h1 class="title-team">Simple post with, link, paragraphs and comment</h1>
+                        <a href="#">
+                            <h1 class="title-team">Simple post with, link, paragraphs and comment</h1>
+                        </a>
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <img class="img-artical-team" src="images\artical-example.jpg" alt="artical example">
@@ -244,7 +300,9 @@
                 </div>
                 <div class="contentSize-team">
                     <div class="contentText-team">
-                        <h1 class="title-team">Simple post with, link, paragraphs and comment</h1>
+                        <a href="#">
+                            <h1 class="title-team">Simple post with, link, paragraphs and comment</h1>
+                        </a>
                         <div class="row">
                             <div class="col-md-3 text-center">
                                 <img class="img-artical-team" src="images\artical-example.jpg" alt="artical example">
@@ -278,34 +336,34 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <nav aria-label="Page navigation example">
+                <div class="text-center">
+                    <nav class="text-center">
                         <ul class="pagination">
                             <li class="page-item disabled">
-                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                                <a class="page-link-team" href="#" tabindex="-1">Previous</a>
                             </li>
                             <li class="page-item active">
-                                <a class="page-link" href="#">1</a>
+                                <a class="page-link-team" href="#">1</a>
                             </li>
                             <li class="page-item ">
-                                <a class="page-link" href="#">2
+                                <a class="page-link-team" href="#">2
                                     <span class="sr-only">(current)</span>
                                 </a>
                             </li>
                             <li class="page-item">
-                                <a class="page-link" href="#">3</a>
+                                <a class="page-link-team" href="#">3</a>
                             </li>
                             <li class="page-item">
-                                <a class="page-link" href="#">Next</a>
+                                <a class="page-link-team" href="#">Next</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
 
-            <!-- end content -->
+            <!-- End content -->
             <!-- Sidebar (Hiệp)-->
-            <aside class="sidebar col-lg-3 col-md-3 col-sm-3 right-sidebar">
+            <aside class="sidebar col-lg-3 col-md-3 col-sm-3 right-sidebar d-sm-none d-md-block">
                 <!-- Hot nhất -->
                 <div class="row sidebar-box-team">
 
@@ -375,7 +433,7 @@
                     </div>
 
                 </div>
-                <!-- end hot nhất -->
+                <!-- End hot nhất -->
 
                 <!-- Mới nhất -->
                 <div class="row sidebar-box-team">
@@ -446,38 +504,21 @@
                     </div>
 
                 </div>
-                <!-- end mới nhất -->
+                <!-- End mới nhất -->
             </aside>
-            <!--/end sidebar -->
+            <!--/End sidebar -->
         </div>
     </div>
     <!--end container -->
 
 
-    <!-- <div class="card-columns">
-        <div class="card">
-            <img class="card-img-top" src="holder.js/100x180/" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-            </div>
-        </div>
-        <div class="card">
-            <img class="card-img-top" src="holder.js/100x180/" alt="">
-            <div class="card-body">
-                <h4 class="card-title">Title</h4>
-                <p class="card-text">Text</p>
-            </div>
-        </div>
-    </div> -->
     <!-- Team -->
     <div class="container">
-        <h1 class="centered-team">SHARP TEAM</h1>
         <hr>
         <div class="row">
             <div class="col-lg-3 col-sm-6">
                 <div class="card card-profile">
-                    <div class="card-cover" style="background-image: url('../DEMO/images/HOME_15.jpg')">
+                    <div class="card-cover" style="background-image: url('images/bg-footer.png')">
                     </div>
                     <div class="card-avatar border-white">
                         <a href="#avatar">
@@ -485,20 +526,15 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Quang Nhật</h4>
-                        <h6 class="card-category">Ăn Bám</h6>
+                        <h4 class="card-title">NhatTQ</h4>
+                        <h6 class="card-category">Full Stack</h6>
                         <p class="card-description">
-                            Mike combines an expert technical knowledge with a real eye for design. Working with clients from a wide range of industries,
+                            Nhat combines an expert technical knowledge with a real eye for design. Working with clients from a wide range of industries,
                             he fully understands client objectives when working on a project, large or small.
                         </p>
                         <div class="card-footer text-center">
-
-                            </a>
-                            <a href="#paper-kit" class="btn btn-just-icon btn-dribbble">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
                             <a href="https://www.facebook.com/tran.quangnhat.37" class="btn btn-just-icon btn-facebook" target="_blank">
-                                <i class="fa fa-facebook-square"></i>
+                                <h5>Facebook</h5>
                             </a>
                         </div>
                     </div>
@@ -509,7 +545,7 @@
 
             <div class="col-lg-2 col-sm-6">
                 <div class="card card-profile">
-                    <div class="card-cover" style="background-image: url('../DEMO/images/HOME_15.jpg')">
+                    <div class="card-cover" style="background-image: url('images/bg-footer.png')">
                     </div>
                     <div class="card-avatar border-white">
                         <a href="#avatar">
@@ -517,18 +553,14 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Ngọc Hòa</h4>
-                        <h6 class="card-category">Designer</h6>
+                        <h4 class="card-title">HoaPN</h4>
+                        <h6 class="card-category">Full Stack</h6>
                         <p class="card-description">
-                            Tim is an experienced marcoms practitioner and manages projects from inception to delivery.
+                            Hoa is an experienced marcoms practitioner and manages projects from inception to delivery.
                         </p>
                         <div class="card-footer text-center">
-
-                            <a href="#paper-kit" class="btn btn-just-icon btn-dribbble">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
                             <a href="https://www.facebook.com/thaycacac" target="_blank" class="btn btn-just-icon btn-facebook">
-                                <i class="fa fa-facebook-square"></i>
+                                <h5>Facebook</h5>
                             </a>
                         </div>
                     </div>
@@ -538,7 +570,7 @@
 
             <div class="col-lg-2 col-sm-6">
                 <div class="card card-profile">
-                    <div class="card-cover" style="background-image: url('../DEMO/images/HOME_15.jpg')">
+                    <div class="card-cover" style="background-image: url('images/bg-footer.png')">
                     </div>
                     <div class="card-avatar border-white">
                         <a href="#avatar">
@@ -546,18 +578,14 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Quang Hiệp</h4>
-                        <h6 class="card-category">Back-End Dev</h6>
+                        <h4 class="card-title">HiepDQ</h4>
+                        <h6 class="card-category">Full Stack</h6>
                         <p class="card-description">
-                            Be a creative director is a hard task, but Michele loves what she does. He's handsome.
+                            Hiep a creative director is a hard task, but Michele loves what she does. He's handsome and he don't have girlfriend.
                         </p>
                         <div class="card-footer text-center">
-
-                            <a href="#paper-kit" class="btn btn-just-icon btn-dribbble">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
                             <a href="https://www.facebook.com/bacodekiller" target="_blank" class="btn btn-just-icon btn-facebook">
-                                <i class="fa fa-facebook-square"></i>
+                                <h5>Facebook</h5>
                             </a>
                         </div>
                     </div>
@@ -567,7 +595,7 @@
 
             <div class="col-lg-2 col-sm-6">
                 <div class="card card-profile">
-                    <div class="card-cover" style="background-image: url('../DEMO/images/HOME_15.jpg')">
+                    <div class="card-cover" style="background-image: url('images/bg-footer.png')">
                     </div>
                     <div class="card-avatar border-white">
                         <a href="#avatar">
@@ -575,18 +603,14 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Văn Đức</h4>
-                        <h6 class="card-category">Front-End</h6>
+                        <h4 class="card-title">DucPV</h4>
+                        <h6 class="card-category">Full Stack</h6>
                         <p class="card-description">
-                            Jaye began making websites when animated logos and scrolling text were cool. La La La
+                            Duc began making websites when animated logos and scrolling text were cool. He is a fan of bitcoin. La La La
                         </p>
                         <div class="card-footer text-center">
-
-                            <a href="#paper-kit" class="btn btn-just-icon btn-dribbble">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
                             <a href="https://www.facebook.com/profile.php?id=100009850397613" target="_blank" class="btn btn-just-icon btn-facebook">
-                                <i class="fa fa-facebook-square"></i>
+                                <h5>Facebook</h5>
                             </a>
                         </div>
                     </div>
@@ -596,7 +620,7 @@
 
             <div class="col-lg-3 col-sm-6">
                 <div class="card card-profile">
-                    <div class="card-cover" style="background-image: url('../DEMO/images/HOME_15.jpg')">
+                    <div class="card-cover" style="background-image: url('images/bg-footer.png')">
                     </div>
                     <div class="card-avatar border-white">
                         <a href="#avatar">
@@ -604,19 +628,15 @@
                         </a>
                     </div>
                     <div class="card-body">
-                        <h4 class="card-title">Xuân Cường</h4>
-                        <h6 class="card-category">FA Muôn Năm</h6>
+                        <h4 class="card-title">CuongNX</h4>
+                        <h6 class="card-category">Full Stack</h6>
                         <p class="card-description">
-                            Jaye began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity, creating
-                            websites that are a pleasure to browse. Monkey Island Fan.
+                            Cuong began making websites when animated logos and scrolling text were cool, but has since found a love for simplicity,
+                            creating websites that are a pleasure to browse. Monkey Island Fan. La La La
                         </p>
                         <div class="card-footer text-center">
-
-                            <a href="#paper-kit" class="btn btn-just-icon btn-dribbble">
-                                <i class="fa fa-dribbble"></i>
-                            </a>
                             <a href="https://www.facebook.com/xuancuong.380431" target="_blank" class="btn btn-just-icon btn-facebook">
-                                <i class="fa fa-facebook-square"></i>
+                                <h5>Facebook</h5>
                             </a>
                         </div>
                     </div>
@@ -625,59 +645,6 @@
             </div>
         </div>
 
-        <!-- <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <h3>Contact Information</h3>
-                    <p>
-                        <i class="fa fa-home" aria-hidden="true"></i> ĐH FPT Hòa Lạc
-                        <br/>
-                        <i class="fa fa-mobile" aria-hidden="true"></i> +123 456 789
-                        <br/>
-                        <i class="fa fa-envelope-o" aria-hidden="true"></i>
-                        <a href="#"> sharpteam@gmail.com</a>
-                        <br/>
-                        <i class="fa fa-facebook-official" aria-hidden="true" ></i>
-                        <a href="#"> Sharp Team </a>
-                        <br/>
-                    </p>
-                </div>
-                
-
-                <div class="col-md-4 col-sm-6">
-                    <h3>Newsletter</h3>
-                    <p>Register to our newsletter and be updated with the latests information regarding our services, offers
-                        and much more.</p>
-                    <p>
-                        <form class="form-horizontal" role="form">
-                            <div class="form-group">
-                                <label for="inputEmail1" class="col-lg-4 control-label"></label>
-                                <div class="col-lg-10">
-                                    <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <label for="text1" class="col-lg-4 control-label"></label>
-                                <div class="col-lg-10">
-                                    <input type="text" class="form-control" id="text1" placeholder="Your Name">
-                                </div>
-                            </div>
-                            <div class="form-group">
-                                <div class="col-lg-10">
-                                    <button type="submit" class="btn btn-success">Sign in</button>
-                                </div>
-                            </div>
-                        </form>
-                        
-                    </p>
-                </div>
-                
-
-                <div class="col-md-4 col-sm-6">
-                    <h3>Support Us</h3>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's
-                        standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled
-                        it to make a type specimen book.</p>
-                </div> -->
     </div>
     <br>
     <br>
@@ -685,57 +652,56 @@
     <br>
     <div class="container container-footer">
         <div class="row">
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h3>FROM TWITTER</h3>
+            <div class="col-lg-2 col-md-4 col-sm-6">
+                <h3 class="title-footer-team">SEND FEEDBACK</h3>
                 <i class="fa fa-twitter"></i>
-                <strong>Sharp Team</strong> Smart Interior Facebook fanpage template j.mpxczczxc
-                <strong>#Facebook</strong>
+                <strong>Sharp Team</strong> always listen feedback to develop everything better
+                <br>
+                <strong>#Sharp Team</strong>
                 <br>
                 <br>
-                <button type="submit" class="btn btn-block btn-primary">FOLLOW US</button>
+                <button type="submit" class="btn btn-block btn-primary">SEND FEEDBACK</button>
             </div>
-            <div class="col-lg-3 col-md-4 col-sm-6">
-                <h3>LIKE US ON FACEBOOK</h3>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <h3 class="title-footer-team">LIKE US ON FACEBOOK</h3>
                 <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Ffu.jsclub%2F&tabs=light&width=300&height=200&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId"
-                    width="200" height="130" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+                    width="300" height="240" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
 
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <h3>INFORMATION</h3>
-                <i class="fa fa-caret-right"></i>
+                <h3 class="title-footer-team">INFORMATION</h3>
+                <i class="fa fa-caret-right info-footer-team"></i>
                 <a href="#">Home</a>
                 <br>
-                <i class="fa fa-caret-right"></i>
+                <i class="fa fa-caret-right info-footer-team"></i>
                 <a href="#">Document</a>
                 <br>
-                <i class="fa fa-caret-right"></i>
+                <i class="fa fa-caret-right info-footer-team"></i>
                 <a href="#">About Us</a>
                 <br>
-                <i class="fa fa-caret-right"></i>
+                <i class="fa fa-caret-right info-footer-team"></i>
                 <a href="#">More</a>
                 <br>
-                <i class="fa fa-caret-right"></i>
+                <i class="fa fa-caret-right info-footer-team"></i>
                 <a href="#">Image</a>
                 <br>
-                <i class="fa fa-caret-right"></i>
+                <i class="fa fa-caret-right info-footer-team"></i>
                 <a href="#">History</a>
                 <br>
 
             </div>
             <div class="col-lg-3 col-md-4 col-sm-6">
-                <h3>CONTACT US</h3>
-                <i class="fa fa-home"></i> FPT University.
+                <h3 class="title-footer-team">CONTACT US</h3>
+                <i class="fa fa-home info-footer-team"></i> FPT University.
                 <br>
-                <i class="fa fa-phone"></i> +84696969696
+                <i class="fa fa-phone info-footer-team"></i> +84696969696
                 <br>
-                <i class="fa fa-envelope-open"></i> sharpteam@gmail.com
+                <i class="fa fa-envelope-open info-footer-team"></i> sharpteam@gmail.com
                 <br>
-                <i class="fa fa-skype"></i> SharpTeam
+                <i class="fa fa-skype info-footer-team"></i> SharpTeam
                 <br>
-                <a href="https://www.facebook.com/xuancuong.380431" target="_blank" class="btn btn-facebook">
-                    <i class="fa fa-facebook-square"></i>
-                </a>
-                <a href="#paper-kit" class="btn  btn-github">
+                <hr>
+                <a href="#paper-kit" class="btn  btn-github ">
                     <i class="fa fa-github-square"></i>
                 </a>
                 <a href="#paper-kit" class="btn btn-google-plus">
@@ -747,19 +713,19 @@
                 <a href="#paper-kit" class="btn btn-youtube">
                     <i class="fa fa-youtube"></i>
                 </a>
-
+                <hr>
             </div>
         </div>
     </div>
     <!-- Footer -->
     <div class="footerwrap">
         <div class="container">
-            <h4>
-                @
+            <h4 class="footerwrap-team">
+                Copyright ©
                 <script>
                     document.write(new Date().getFullYear())
                 </script>, Created by
-                <a href="#">Sharp Team </a>
+                <strong>Sharp Team</strong>. All rights reserved.
                 <i class="fa fa-heart heart"></i>.
             </h4>
 
