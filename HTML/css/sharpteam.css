@@ -320,6 +320,47 @@ img.img-artical-team {
     background-color: #e64b39;
 }
 
+/* About Us */
+
+/* History */
+
+.text-aboutus-team {
+    color: black;
+    overflow: hidden;
+    padding-top: 14px;
+}
+
+#canvas-line-team {
+    width: 200px;
+    height: 100px;
+}
+#canvas-line-team-2 {
+    width: 200px;
+    height: 100px;
+}
+#canvas-line-team-3 {
+    width: 200px;
+    height: 100px;
+}
+
+#canvavsr-circle-team {
+    width: 500px;
+    height: 100px;
+    border: 1px solid yellow;
+}
+
+.text-history-team{
+    padding: 5px;
+    margin: 2px;
+    width: 600px;
+    height: 65px;
+    border: 1px solid black;
+}
+
+/* /History */
+
+/* /About Us */
+
 /* Hoa */
 
 /* Begin css of Nhat */
