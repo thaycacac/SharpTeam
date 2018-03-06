@@ -143,10 +143,16 @@ div.contentSizeImage-team {
 .bg-nav-sm-team {
     background-color: #e2e1df;
 }
+.text-nav-team{
+    color: #797575;
+}
+.text-active-team {
+    color: #4d4a4a;
+}
 
 .bg-nav-hover-team:hover {
     background: #d4d4d4;
-    color: #6b6b6b;
+    color: #6b6b6b !important;
 }
 
 .nav-active-team {
@@ -155,7 +161,7 @@ div.contentSizeImage-team {
 }
 
 #active-team {
-    color: #6d6c6c;
+    color: #6d6c6c !important;
 }
 
 .bg-nav-team {
@@ -464,9 +470,11 @@ div.datetime::before {
 /* /About Us */
 
 /* Artical */
-.text-artical-team{
+
+.text-artical-team {
     padding: 15px;
 }
+
 /* Hoa */
 
 /* Begin css of Nhat */
